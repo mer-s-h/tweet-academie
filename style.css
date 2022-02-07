@@ -1,0 +1,148 @@
+/* Universal Style */
+
+html {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+}
+
+/* Body Section */
+
+.title h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.pad {
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.title h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.title h2 {
+    margin-bottom: 2rem;
+}
+
+.signUp {
+    width: 45%;
+    text-align: center;
+    border-radius: 3rem;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+    background-color: rgb(18, 142, 80);
+    margin-bottom: 1rem;
+}
+
+.logIn {
+    width: 45%;
+    text-align: center;
+    border-radius: 3rem;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+    border: 1px solid;
+    border-color: rgb(18, 142, 80);
+}
+
+.inscription a {
+    text-decoration: none;
+}
+
+.signUp a {
+    color: white;
+}
+
+.signUp:hover {
+    background-color: rgb(12, 101, 57);
+}
+
+.logIn a {
+    color: rgb(18, 142, 80);
+}
+
+.logIn:hover {
+    background-color: rgb(219, 240, 221);
+}
+
+/* Footer Section */
+
+footer {
+    text-align: center;
+}
+
+/* Modal JS */
+
+#mod {
+    border-radius: 1rem;
+}
+
+#modBody {
+    margin: 1rem;
+}
+
+.modal-content img {
+    height: 2rem;
+}
+
+#floatingInput:focus {
+    border-color: rgb(18, 142, 80);
+    box-shadow: 0 0 0.3rem 0.2rem rgb(18, 142, 80);
+}
+
+#floatingInput2:focus {
+    border-color: rgb(18, 142, 80);
+    box-shadow: 0 0 0.3rem 0.2rem rgb(18, 142, 80);
+}
+
+#floatingInput3:focus {
+    border-color: rgb(18, 142, 80);
+    box-shadow: 0 0 0.3rem 0.2rem rgb(18, 142, 80);
+}
+
+#floatingInput4:focus {
+    border-color: rgb(18, 142, 80);
+    box-shadow: 0 0 0.3rem 0.2rem rgb(18, 142, 80);
+}
+
+#floatingInput5:focus {
+    border-color: rgb(18, 142, 80);
+    box-shadow: 0 0 0.3rem 0.2rem rgb(18, 142, 80);
+}
+
+#floatingInput6:focus {
+    border-color: rgb(18, 142, 80);
+    box-shadow: 0 0 0.3rem 0.2rem rgb(18, 142, 80);
+}
+
+#useMail {
+    color: rgb(18, 142, 80);
+    text-decoration: none;
+}
+
+#useMail:hover {
+    text-decoration: underline;
+}
+
+.form-select{
+    width: 80px;
+    margin-right: 20px;
+}
+
+#birthday{
+    display: flex;
+}
+
+#submit{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: rgb(18, 142, 80);
+    border-color: rgb(18, 142, 80);
+    border-radius: 2rem;
+}
